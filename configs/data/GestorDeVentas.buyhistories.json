@@ -1,0 +1,162 @@
+[{
+  "_id": {
+    "$oid": "67c9485e2e19dc6fd4d3910b"
+  },
+  "keeperShoppingCart": {
+    "$oid": "67c948572e19dc6fd4d390fb"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "67c91495702f64d2bed000ab"
+      },
+      "nameProduct": "Moto hauje",
+      "amount": 1,
+      "_id": {
+        "$oid": "67c9485e2e19dc6fd4d3910c"
+      }
+    }
+  ],
+  "state": true,
+  "createdAt": {
+    "$date": "2025-03-06T07:01:50.246Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-06T07:01:50.246Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c94988de40045f82444bdb"
+  },
+  "keeperShoppingCart": {
+    "$oid": "67c948572e19dc6fd4d390fb"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "67c91495702f64d2bed000ab"
+      },
+      "nameProduct": "Moto hauje",
+      "amount": 1,
+      "_id": {
+        "$oid": "67c94988de40045f82444bdc"
+      }
+    }
+  ],
+  "state": true,
+  "createdAt": {
+    "$date": "2025-03-06T07:06:48.453Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-06T07:06:48.453Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca4496eb05e97775d2eee4"
+  },
+  "keeperShoppingCart": {
+    "$oid": "67c948572e19dc6fd4d390fb"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "67ca43076217ef531cf5eb38"
+      },
+      "nameProduct": "Moto hauje",
+      "amount": 3,
+      "_id": {
+        "$oid": "67ca4496eb05e97775d2eee5"
+      }
+    }
+  ],
+  "state": true,
+  "createdAt": {
+    "$date": "2025-03-07T00:57:58.654Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T00:57:58.654Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca44d4eb05e97775d2ef0a"
+  },
+  "keeperShoppingCart": {
+    "$oid": "67c948572e19dc6fd4d390fb"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "67ca43076217ef531cf5eb38"
+      },
+      "nameProduct": "Moto hauje",
+      "amount": 2,
+      "_id": {
+        "$oid": "67ca44d4eb05e97775d2ef0b"
+      }
+    }
+  ],
+  "state": true,
+  "createdAt": {
+    "$date": "2025-03-07T00:59:00.915Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T00:59:00.915Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca4959a0a790597f8d43e2"
+  },
+  "keeperShoppingCart": {
+    "$oid": "67c948572e19dc6fd4d390fb"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "67ca427e6217ef531cf5eb20"
+      },
+      "nameProduct": "Jamon perry",
+      "amount": 3,
+      "_id": {
+        "$oid": "67ca4959a0a790597f8d43e3"
+      }
+    }
+  ],
+  "state": true,
+  "createdAt": {
+    "$date": "2025-03-07T01:18:17.524Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T01:18:17.524Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca77761bae16de33eac567"
+  },
+  "keeperShoppingCart": {
+    "$oid": "67ca775b1bae16de33eac554"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "67ca427e6217ef531cf5eb20"
+      },
+      "nameProduct": "Jamon perry",
+      "amount": 1,
+      "_id": {
+        "$oid": "67ca77761bae16de33eac568"
+      }
+    }
+  ],
+  "state": true,
+  "createdAt": {
+    "$date": "2025-03-07T04:35:02.788Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T04:35:02.788Z"
+  }
+}]

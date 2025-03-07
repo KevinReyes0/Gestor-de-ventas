@@ -31,6 +31,24 @@
     "$date": "2025-03-04T06:30:34.929Z"
   },
   "updatedAt": {
-    "$date": "2025-03-04T17:29:57.763Z"
+    "$date": "2025-03-07T16:10:42.014Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c92ff52ea82c5a67cb0d64"
+  },
+  "name": "Jorge",
+  "surname": "Peralta",
+  "username": "jperalta",
+  "email": "jperalta@kinal.edu.gt",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$+4EmqQz2X8sgZ44AFyWE6g$V1tzCxgbpS9iNvsD6N5RPO3UJ9fmCaoSvRwyIS5g/c0",
+  "role": "NORMAL_ROLE",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-03-06T05:17:41.112Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T02:36:39.008Z"
   }
 }]

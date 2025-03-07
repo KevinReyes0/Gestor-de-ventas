@@ -24,6 +24,18 @@
     },
     {
       "$oid": "67c6aa818c5f103323e6ce83"
+    },
+    {
+      "$oid": "67c91495702f64d2bed000ab"
+    },
+    {
+      "$oid": "67c9165d702f64d2bed000b0"
+    },
+    {
+      "$oid": "67ca42e16217ef531cf5eb2f"
+    },
+    {
+      "$oid": "67ca43076217ef531cf5eb38"
     }
   ],
   "state": true,
@@ -31,7 +43,7 @@
     "$date": "2025-03-04T04:56:16.594Z"
   },
   "updatedAt": {
-    "$date": "2025-03-04T07:23:45.249Z"
+    "$date": "2025-03-07T00:51:19.435Z"
   }
 },
 {
@@ -46,6 +58,39 @@
     },
     {
       "$oid": "67c6aacf8c5f103323e6ce8c"
+    },
+    {
+      "$oid": "67c7e5d83d67540a78923e64"
+    },
+    {
+      "$oid": "67c7e63b3d67540a78923e69"
+    },
+    {
+      "$oid": "67c7e6603d67540a78923e6e"
+    },
+    {
+      "$oid": "67c7e6753d67540a78923e73"
+    },
+    {
+      "$oid": "67c7e6973d67540a78923e78"
+    },
+    {
+      "$oid": "67c9145b702f64d2bed000a6"
+    },
+    {
+      "$oid": "67c91684702f64d2bed000b5"
+    },
+    {
+      "$oid": "67c92026e759ac18e608f4d9"
+    },
+    {
+      "$oid": "67c9207fb1ac175a3e99322d"
+    },
+    {
+      "$oid": "67ca42ae6217ef531cf5eb29"
+    },
+    {
+      "$oid": "67ca43296217ef531cf5eb41"
     }
   ],
   "state": true,
@@ -53,6 +98,47 @@
     "$date": "2025-03-04T04:56:37.501Z"
   },
   "updatedAt": {
-    "$date": "2025-03-04T07:25:03.908Z"
+    "$date": "2025-03-07T00:51:53.094Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c91f32b104c2b6a960393b"
+  },
+  "nameCategory": "Alimentos",
+  "description": "Apartado para alimentos",
+  "keeperProduct": [
+    {
+      "$oid": "67c920ee9a89a9676684003f"
+    },
+    {
+      "$oid": "67ca427e6217ef531cf5eb20"
+    }
+  ],
+  "state": true,
+  "createdAt": {
+    "$date": "2025-03-06T04:06:10.467Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T00:49:02.911Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca566bc7a58fe53f8a51fd"
+  },
+  "nameCategory": "Utiles escolares",
+  "description": "Apartado para utiles escolares",
+  "keeperProduct": [
+    {
+      "$oid": "67ca56a2c7a58fe53f8a5202"
+    }
+  ],
+  "state": false,
+  "createdAt": {
+    "$date": "2025-03-07T02:14:03.914Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T02:15:53.984Z"
   }
 }]

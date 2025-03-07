@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "67c948572e19dc6fd4d390fb"
+  },
+  "user": {
+    "$oid": "67c69e0a7a9fa98bf874774c"
+  },
+  "keeperProduct": [],
+  "state": false,
+  "createdAt": {
+    "$date": "2025-03-06T07:01:43.394Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T01:18:17.526Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca775b1bae16de33eac554"
+  },
+  "user": {
+    "$oid": "67c92ff52ea82c5a67cb0d64"
+  },
+  "keeperProduct": [],
+  "state": false,
+  "createdAt": {
+    "$date": "2025-03-07T04:34:35.883Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T04:35:02.790Z"
+  }
+}]
