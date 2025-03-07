@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "f6537c4c-1cbc-4096-b4a8-847c8b6a2295",
+		"name": "ShoppingCart",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37413968"
+	},
+	"item": [
+		{
+			"name": "addShoppingCart",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M5MmZmNTJlYTgyYzVhNjdjYjBkNjQiLCJpYXQiOjE3NDEzMjIwNjUsImV4cCI6MTc0MTMyNTY2NX0._HU8iIlq-e_pdOn4nXwpV6XHUL75SE_1SlqQuoinfIQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nameProduct\": \"Jamon perry\",\r\n    \"amount\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/gestorDeVentas/v1/shoppingCart/addShoppingCart",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"gestorDeVentas",
+						"v1",
+						"shoppingCart",
+						"addShoppingCart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ViewSoppingCart",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/gestorDeVentas/v1/shoppingCart/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"gestorDeVentas",
+						"v1",
+						"shoppingCart",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

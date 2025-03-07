@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "67c6880b401cd17dee6734eb"
+  },
+  "nameProduct": "Pelota de basquet",
+  "description": "Es una pelota de basquet spalding",
+  "stock": 10,
+  "keeperCategory": {
+    "$oid": "67c54f8a10066f2af17ad069"
+  },
+  "state": true,
+  "createdAt": {
+    "$date": "2025-03-04T04:56:43.834Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-04T07:27:48.204Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c68826401cd17dee6734f0"
+  },
+  "nameProduct": "Moto hauje",
+  "description": "Es una moto hauje de 125cc automatica",
+  "stock": 10,
+  "keeperCategory": {
+    "$oid": "67c687f0401cd17dee6734e4"
+  },
+  "state": true,
+  "createdAt": {
+    "$date": "2025-03-04T04:57:10.177Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-04T05:26:18.983Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c6aa818c5f103323e6ce83"
+  },
+  "nameProduct": "Carro toyota",
+  "description": "Toyota yaris 2020 color negro",
+  "stock": 5,
+  "keeperCategory": {
+    "$oid": "67c687f0401cd17dee6734e4"
+  },
+  "state": true,
+  "createdAt": {
+    "$date": "2025-03-04T07:23:45.245Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-04T07:23:45.245Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c6aacf8c5f103323e6ce8c"
+  },
+  "nameProduct": "Zapatos de futbol",
+  "description": "Zapatos adidas para jugar futbol",
+  "stock": 20,
+  "keeperCategory": {
+    "$oid": "67c68805401cd17dee6734e7"
+  },
+  "state": true,
+  "createdAt": {
+    "$date": "2025-03-04T07:25:03.907Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-04T07:25:03.907Z"
+  }
+}]

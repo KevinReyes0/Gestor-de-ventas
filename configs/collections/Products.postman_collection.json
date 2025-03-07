@@ -1,0 +1,277 @@
+{
+	"info": {
+		"_postman_id": "a96010ea-7b91-4f9a-ae16-5525bd7c0c48",
+		"name": "Products",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37413968"
+	},
+	"item": [
+		{
+			"name": "Porducts",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M1NDRlN2IxNDRkMWM2MjVhOWU3N2QiLCJpYXQiOjE3NDEzMTMyMTQsImV4cCI6MTc0MTMxNjgxNH0.pje64DLDFfQ_thhJbYSjaDpPR5xptoUSbGmGsQ7GYK8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nameProduct\": \"Boligrafo bic\",\r\n    \"description\": \"Es un boligrafo bic de color negro\",\r\n    \"stock\": 100,\r\n    \"nameCategory\": \"Utiles escolares\",\r\n    \"price\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/gestorDeVentas/v1/products/addProduct",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"gestorDeVentas",
+						"v1",
+						"products",
+						"addProduct"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "inventory",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3001/gestorDeVentas/v1/products/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"gestorDeVentas",
+						"v1",
+						"products",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "viewOutOfStockProducts",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M1NDRlN2IxNDRkMWM2MjVhOWU3N2QiLCJpYXQiOjE3NDEzMTMyMTQsImV4cCI6MTc0MTMxNjgxNH0.pje64DLDFfQ_thhJbYSjaDpPR5xptoUSbGmGsQ7GYK8",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3001/gestorDeVentas/v1/products/viewOutOfStockProducts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"gestorDeVentas",
+						"v1",
+						"products",
+						"viewOutOfStockProducts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BestSellingProducts",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M1NDRlN2IxNDRkMWM2MjVhOWU3N2QiLCJpYXQiOjE3NDEzMTMyMTQsImV4cCI6MTc0MTMxNjgxNH0.pje64DLDFfQ_thhJbYSjaDpPR5xptoUSbGmGsQ7GYK8",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3001/gestorDeVentas/v1/products/bestSellingProducts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"gestorDeVentas",
+						"v1",
+						"products",
+						"bestSellingProducts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateProduct",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M1NDRlN2IxNDRkMWM2MjVhOWU3N2QiLCJpYXQiOjE3NDEyMzg5OTksImV4cCI6MTc0MTI0MjU5OX0.B8jeBlUwUvH0rx2gI4-Wbd8PPVZRv7RcIbPujtnPZLU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nameProduct\": \"Pelota de basquet\",\r\n    \"description\": \"Es una pelota de basquet spalding\",\r\n    \"stock\": 10,\r\n    \"nameCategory\": \"Deportes\",\r\n    \"price\": 400\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/gestorDeVentas/v1/products/updateProduct/67c9145b702f64d2bed000a6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"gestorDeVentas",
+						"v1",
+						"products",
+						"updateProduct",
+						"67c9145b702f64d2bed000a6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteProduct",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M1NDRlN2IxNDRkMWM2MjVhOWU3N2QiLCJpYXQiOjE3NDEwNjU5NzEsImV4cCI6MTc0MTA2OTU3MX0.-ugdybQHRBeSpxCDBzMt3YFq6M4VdVfQ_tTbK9QkH1I",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3001/gestorDeVentas/v1/products/deleteProduct/67c68826401cd17dee6734f0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"gestorDeVentas",
+						"v1",
+						"products",
+						"deleteProduct",
+						"67c68826401cd17dee6734f0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "bestSellingProductsUsers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/gestorDeVentas/v1/products/bestSellingProductsUsers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"gestorDeVentas",
+						"v1",
+						"products",
+						"bestSellingProductsUsers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CatalogByCategory",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/gestorDeVentas/v1/products/productCatalogByCategory?categoryName=Deportes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"gestorDeVentas",
+						"v1",
+						"products",
+						"productCatalogByCategory"
+					],
+					"query": [
+						{
+							"key": "categoryName",
+							"value": "Deportes"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "searchProduct",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/gestorDeVentas/v1/products/searchProduct?nameProduct=Moto hauje",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"gestorDeVentas",
+						"v1",
+						"products",
+						"searchProduct"
+					],
+					"query": [
+						{
+							"key": "nameProduct",
+							"value": "Moto hauje"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

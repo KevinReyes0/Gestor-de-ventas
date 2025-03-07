@@ -1,0 +1,58 @@
+[{
+  "_id": {
+    "$oid": "67c54f8a10066f2af17ad069"
+  },
+  "nameCategory": "GlobalCategory",
+  "description": "Aqui se encuentran todos los productos sin categoria definida.",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-03-03T06:43:22.982Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-03T06:43:22.982Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c687f0401cd17dee6734e4"
+  },
+  "nameCategory": "Vehiculo",
+  "description": "Apartado para vehiculos",
+  "keeperProduct": [
+    {
+      "$oid": "67c68826401cd17dee6734f0"
+    },
+    {
+      "$oid": "67c6aa818c5f103323e6ce83"
+    }
+  ],
+  "state": true,
+  "createdAt": {
+    "$date": "2025-03-04T04:56:16.594Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-04T07:23:45.249Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c68805401cd17dee6734e7"
+  },
+  "nameCategory": "Deportes",
+  "description": "Apartado para articulos deportivos",
+  "keeperProduct": [
+    {
+      "$oid": "67c6880b401cd17dee6734eb"
+    },
+    {
+      "$oid": "67c6aacf8c5f103323e6ce8c"
+    }
+  ],
+  "state": true,
+  "createdAt": {
+    "$date": "2025-03-04T04:56:37.501Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-04T07:25:03.908Z"
+  }
+}]

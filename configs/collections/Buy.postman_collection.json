@@ -1,0 +1,102 @@
+{
+	"info": {
+		"_postman_id": "98fb1517-3a85-4291-9cdb-cb2c0eda910e",
+		"name": "Buy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37413968"
+	},
+	"item": [
+		{
+			"name": "buyConfirmAndInvoice",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"confirmPurchase\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/gestorDeVentas/v1/buys/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"gestorDeVentas",
+						"v1",
+						"buys",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "buysHistory",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M1NDRlN2IxNDRkMWM2MjVhOWU3N2QiLCJpYXQiOjE3NDEzMjIxMjYsImV4cCI6MTc0MTMyNTcyNn0.RWfTAwLXSusMmX_2JlWq-CauIXKdXrJ3p5K-MovIq4w",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3001/gestorDeVentas/v1/buys/historyBuys/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"gestorDeVentas",
+						"v1",
+						"buys",
+						"historyBuys",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "historyBuyViewByUser",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M2OWUwYTdhOWZhOThiZjg3NDc3NGMiLCJpYXQiOjE3NDEzMjI3NDQsImV4cCI6MTc0MTMyNjM0NH0.kzx517nRSfU2Cj4j_TsZa4Li6zkGh3m3s4CKqdsYvwk",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3001/gestorDeVentas/v1/buys/historyBuyViewByUser/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"gestorDeVentas",
+						"v1",
+						"buys",
+						"historyBuyViewByUser",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

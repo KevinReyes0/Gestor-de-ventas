@@ -10,9 +10,11 @@ import limiter from '../src/middlewares/validar-cant-peticiones.js'
 import  { dbConnection } from './mongo.js';
 
 import authRoutes from '../src/auth/auth.routes.js';
-import authCategories from '../src/categories/category.routes.js'
-import authProduct from '../src/products/product.routes.js'
-import authUser from '../src/users/user.routes.js'
+import categoryRoutes from '../src/categories/category.routes.js';
+import productRoutes from '../src/products/product.routes.js';
+import userRoutes from '../src/users/user.routes.js';
+import shoppingCartRoutes from '../src/shoppingCart/shoppingCart.routes.js';
+import buysRoutes from '../src/buys/buys.routes.js';
 
 const middlewares = (app) => {
     app.use(express.urlencoded({extended : false}));
@@ -25,9 +27,11 @@ const middlewares = (app) => {
 
 const routes = (app) => {
     app.use('/gestorDeVentas/v1/auth', authRoutes);
-    app.use('/gestorDeVentas/v1/categories', authCategories);
-    app.use('/gestorDeVentas/v1/products', authProduct);
-    app.use('/gestorDeVentas/v1/users', authUser);
+    app.use('/gestorDeVentas/v1/categories', categoryRoutes);
+    app.use('/gestorDeVentas/v1/products', productRoutes);
+    app.use('/gestorDeVentas/v1/users', userRoutes);
+    app.use('/gestorDeVentas/v1/shoppingCart', shoppingCartRoutes);
+    app.use('/gestorDeVentas/v1/buys', buysRoutes);
 };
 
 export const conetarDB = async() => {
