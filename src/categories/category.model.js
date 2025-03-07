@@ -1,7 +1,7 @@
 import {Schema, model} from "mongoose";
 
-const ProductSchema = Schema({
-    nameProduct : {
+const CategorySchema = Schema({
+    nameCategory : {
         type: String,
         required: [true, 'Name required'],
         maxLength: [50, 'Cant be overcome 50 characters']
@@ -11,23 +11,11 @@ const ProductSchema = Schema({
         required: [true, 'description required'],
         maxLength: [100, 'Cant be overcome 100 characters']
     },
-    stock: {
-        type: Number,
-        required: true
-    },
-    keeperCategory: {
+    keeperProduct: [{
         type: Schema.Types.ObjectId,
-        ref: 'Category',
-        required: true
-    },
-    price: {
-        type: Number,
-        required: true
-    },
-    purchaseRecord: {
-        type: Number,
+        ref: 'Product',
         required: false
-    },
+    }],
     state: {
         type: Boolean,
         default: true
@@ -39,4 +27,4 @@ const ProductSchema = Schema({
     }
 );
 
-export default model('Product', ProductSchema);
+export default model('Category', CategorySchema);
