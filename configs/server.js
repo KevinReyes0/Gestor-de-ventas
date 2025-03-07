@@ -9,6 +9,10 @@ import limiter from '../src/middlewares/validar-cant-peticiones.js'
 
 import  { dbConnection } from './mongo.js';
 
+import authRoutes from '../src/auth/auth.routes.js';
+import authCategories from '../src/categories/category.routes.js'
+import authProduct from '../src/products/product.routes.js'
+import authUser from '../src/users/user.routes.js'
 
 const middlewares = (app) => {
     app.use(express.urlencoded({extended : false}));
@@ -20,7 +24,10 @@ const middlewares = (app) => {
 };
 
 const routes = (app) => {
-
+    app.use('/gestorDeVentas/v1/auth', authRoutes);
+    app.use('/gestorDeVentas/v1/categories', authCategories);
+    app.use('/gestorDeVentas/v1/products', authProduct);
+    app.use('/gestorDeVentas/v1/users', authUser);
 };
 
 export const conetarDB = async() => {
